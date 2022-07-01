@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Lottery</title>
+</head>
+<body>
+<h3>Управление лотерей</h3>
+<form action="/lottery/participant" method="POST">
+    Имя:     <input type="text" name="login"/>
+       Возраст: <input type="password" name="pass"/>
+        Город:   <input type="password" name="pass"/>
+    <br>
+    <input type="submit" value="Добавить участника">
+</form>
+<br>
+<br>
+<form action="/lottery/participant" method="GET">
+    <input type="submit" value="Выгрузить участников">
+</form>
+</body>
+</html>
